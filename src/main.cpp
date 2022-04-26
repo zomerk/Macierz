@@ -86,7 +86,6 @@ int main(int argc, char** argv)
      }
 
      obliczuklad(PlikTestu);
-     printf("test");
 
 
 
