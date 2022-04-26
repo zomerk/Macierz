@@ -2,21 +2,36 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.2.1
+ 
 # Built for x86_64-pc-linux-gnu
+ 
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
+ 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
 # This is free software: you are free to change and redistribute it.
+ 
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Tue Apr 26 14:23:48 2022
+ 
+# Make data base, printed on Tue Apr 26 14:54:14 2022
+ 
 
 # Variables
+ 
 
+ 
 # 'override' directive
+ 
 GNUMAKEFLAGS := 
+ 
 # automatic
+ 
 <D = $(patsubst %/,%,$(dir $<))
+ 
 # automatic
+ 
 ?F = $(notdir $?)
 # environment
 DESKTOP_SESSION = ubuntu
@@ -70,6 +85,7 @@ MAKEFILE_LIST :=  Makefile
 IM_CONFIG_PHASE = 1
 # environment
 USERNAME = zomer
+ 
 # makefile (from 'Makefile', line 1)
 CXXFLAGS = -c -g -std=c++11 -iquote inc -Wall -pedantic
 # environment
@@ -193,7 +209,7 @@ SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-2e6cdd93-80c2-4e37-b03a-18fc661e6754.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-57e30e6c-5142-427d-879a-688d2c4e2282.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -206,6 +222,7 @@ LC_MONETARY = pl_PL.UTF-8
 .DEFAULT_GOAL := __start__
 # environment
 XDG_CURRENT_DESKTOP = Unity
+ 
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -249,11 +266,11 @@ LC_ALL = C
 # environment
 DBUS_STARTER_BUS_TYPE = session
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/5ffb9c76_e860_40c1_a5ce_302a935dbbf9
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/f937cfc3_b787_404a_9cbd_9fa98095d005
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.111
+GNOME_TERMINAL_SERVICE = :1.495
 # default
 SUFFIXES := 
 # environment
@@ -275,10 +292,9 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 4905
+VSCODE_PID = 6512
 # environment
 DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=1376118ba808a3fd7e9e7be96267e192
- 
 # variable set hash-table stats:
 # Load=133/1024=13%, Rehash=0, Collisions=26/166=16%
 
@@ -288,9 +304,9 @@ DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=1376118ba808a3fd7e9e7be
 
 # Directories
 
-# . (device 2053, inode 1446496): 10 files, no impossibilities.
+# . (device 2053, inode 1446496): 12 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -403,12 +419,12 @@ src/LZespolona.cpp:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 368 B / avg = 14 B
-# current buf: size = 8162 B / used = 368 B / count = 26 / avg = 14 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 384 B / avg = 13 B
+# current buf: size = 8162 B / used = 384 B / count = 28 / avg = 13 B
 
-# strcache performance: lookups = 41 / hit rate = 36%
+# strcache performance: lookups = 43 / hit rate = 34%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=1/41=2%
-# Finished Make data base on Tue Apr 26 14:23:48 2022
+# Load=28/8192=0%, Rehash=0, Collisions=1/43=2%
+# Finished Make data base on Tue Apr 26 14:54:14 2022
 
  
