@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/zomer/Desktop/PO/zad4/zasoby/od-klasy-do-szablonu/krok3-wektor-zespolony'
+mkdir -p /tmp/bk/test_swektora/obj
+g++ -c -c -g -std=c++11 -iquote inc -Wall -pedantic -o /tmp/bk/test_swektora/obj/main.o src/main.cpp
+g++ -c -c -g -std=c++11 -iquote inc -Wall -pedantic -o /tmp/bk/test_swektora/obj/LZespolona.o src/LZespolona.cpp
+g++ -o /tmp/bk/test_swektora/test_wektora /tmp/bk/test_swektora/obj/main.o /tmp/bk/test_swektora/obj/LZespolona.o
+/tmp/bk/test_swektora/test_wektora zadanie.txt
+make: Leaving directory '/home/zomer/Desktop/PO/zad4/zasoby/od-klasy-do-szablonu/krok3-wektor-zespolony'
+ 
