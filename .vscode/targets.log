@@ -2,36 +2,21 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.2.1
- 
 # Built for x86_64-pc-linux-gnu
- 
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
- 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
- 
 # This is free software: you are free to change and redistribute it.
- 
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
- 
-# Make data base, printed on Tue Apr 26 14:54:14 2022
- 
+# Make data base, printed on Wed May  4 17:49:05 2022
 
 # Variables
- 
 
- 
 # 'override' directive
- 
 GNUMAKEFLAGS := 
- 
 # automatic
- 
 <D = $(patsubst %/,%,$(dir $<))
- 
 # automatic
- 
 ?F = $(notdir $?)
 # environment
 DESKTOP_SESSION = ubuntu
@@ -70,7 +55,7 @@ VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:45490
+JOURNAL_STREAM = 8:76504
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -85,7 +70,6 @@ MAKEFILE_LIST :=  Makefile
 IM_CONFIG_PHASE = 1
 # environment
 USERNAME = zomer
- 
 # makefile (from 'Makefile', line 1)
 CXXFLAGS = -c -g -std=c++11 -iquote inc -Wall -pedantic
 # environment
@@ -93,11 +77,11 @@ MAKELEVEL := 0
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=1376118ba808a3fd7e9e7be96267e192
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=144162def432f09bb7d32ce46272a042
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 1515
+MANAGERPID = 2116
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -113,7 +97,7 @@ PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/zomer-ThinkPad-T420:@/tmp/.ICE-unix/1733,unix/zomer-ThinkPad-T420:/tmp/.ICE-unix/1733
+SESSION_MANAGER = local/zomer-ThinkPad-T420:@/tmp/.ICE-unix/2337,unix/zomer-ThinkPad-T420:/tmp/.ICE-unix/2337
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -131,7 +115,7 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 05f523c499684d2598132a27e5c09eb4
+INVOCATION_ID = 898c2f0a6e2d407f9c430a374770f669
 # environment
 GDK_PIXBUF_MODULEDIR = /snap/code/94/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
@@ -155,7 +139,7 @@ PWD = /home/zomer/Desktop/PO/zad4/zasoby/od-klasy-do-szablonu/krok3-wektor-zespo
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1698
+SSH_AGENT_PID = 2300
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -209,7 +193,7 @@ SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-57e30e6c-5142-427d-879a-688d2c4e2282.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-c6ee635d-92ac-4d17-b5e3-daee792e4922.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -222,7 +206,6 @@ LC_MONETARY = pl_PL.UTF-8
 .DEFAULT_GOAL := __start__
 # environment
 XDG_CURRENT_DESKTOP = Unity
- 
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -266,11 +249,11 @@ LC_ALL = C
 # environment
 DBUS_STARTER_BUS_TYPE = session
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/f937cfc3_b787_404a_9cbd_9fa98095d005
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/48675b1a_e217_4617_b8eb_9873b6276a9c
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.495
+GNOME_TERMINAL_SERVICE = :1.104
 # default
 SUFFIXES := 
 # environment
@@ -292,9 +275,10 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 6512
+VSCODE_PID = 3951
 # environment
-DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=1376118ba808a3fd7e9e7be96267e192
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=144162def432f09bb7d32ce46272a042
+ 
 # variable set hash-table stats:
 # Load=133/1024=13%, Rehash=0, Collisions=26/166=16%
 
@@ -425,6 +409,6 @@ src/LZespolona.cpp:
 # strcache performance: lookups = 43 / hit rate = 34%
 # hash-table stats:
 # Load=28/8192=0%, Rehash=0, Collisions=1/43=2%
-# Finished Make data base on Tue Apr 26 14:54:14 2022
+# Finished Make data base on Wed May  4 17:49:05 2022
 
  
