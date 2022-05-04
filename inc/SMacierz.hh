@@ -15,7 +15,6 @@ template<typename STyp, int MWymiar>
     * Sklada sie ona z MWymiaru tablic typu STYp ktore rowaniez sa MWymiaru
     *
     */
-    //test git laba 
 class SMacierz {
 
     SWektor<STyp, MWymiar> KOL[MWymiar];
