@@ -220,7 +220,6 @@ LZespolona  SWektor <LZespolona, ROZMIAR>::modul()const {
     pom = this->_Wsp[a];
     wynik = wynik + pom * pom / pom.Sprzezenie();
   }
-  printf("siema siema");
   return wynik;
 }
 

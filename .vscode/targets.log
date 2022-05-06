@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed May  4 17:49:05 2022
+# Make data base, printed on Fri May  6 21:49:43 2022
 
 # Variables
 
@@ -49,13 +49,13 @@ CURDIR := /home/zomer/Desktop/PO/zad4/zasoby/od-klasy-do-szablonu/krok3-wektor-z
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/94
+SNAP_DATA = /var/snap/code/95
 # environment
 VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:76504
+JOURNAL_STREAM = 8:47479
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -77,11 +77,11 @@ MAKELEVEL := 0
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=144162def432f09bb7d32ce46272a042
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=c22bd22c92de106503e84d8362756b9f
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 2116
+MANAGERPID = 1931
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -89,7 +89,7 @@ LC_NAME = pl_PL.UTF-8
 # environment
 VSCODE_CWD = /home/zomer/Desktop/PO/zad4/zasoby/od-klasy-do-szablonu/krok3-wektor-zespolony
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/94/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/95/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -97,15 +97,15 @@ PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/zomer-ThinkPad-T420:@/tmp/.ICE-unix/2337,unix/zomer-ThinkPad-T420:/tmp/.ICE-unix/2337
+SESSION_MANAGER = local/zomer-ThinkPad-T420:@/tmp/.ICE-unix/2157,unix/zomer-ThinkPad-T420:/tmp/.ICE-unix/2157
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/zomer/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/94
+SNAP = /snap/code/95
 # environment
-SNAP_VERSION = dfd34e82
+SNAP_VERSION = 57fd6d01
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -115,9 +115,9 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 898c2f0a6e2d407f9c430a374770f669
+INVOCATION_ID = 786ca4859be54acaa6bc1fdadaf01cec
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/94/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/95/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -139,7 +139,7 @@ PWD = /home/zomer/Desktop/PO/zad4/zasoby/od-klasy-do-szablonu/krok3-wektor-zespo
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2300
+SSH_AGENT_PID = 2121
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -153,7 +153,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/zomer/.config/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+VSCODE_CODE_CACHE_PATH = /home/zomer/.config/Code/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
 # environment
 LOGNAME = zomer
 # environment
@@ -187,19 +187,19 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/zomer/snap/code/94
+SNAP_USER_DATA = /home/zomer/snap/code/95
 # environment
 SHLVL = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-c6ee635d-92ac-4d17-b5e3-daee792e4922.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-1b074c91-9050-4448-aa04-0e095f28b149.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
 USER = zomer
 # environment
-SNAP_REVISION = 94
+SNAP_REVISION = 95
 # environment
 LC_MONETARY = pl_PL.UTF-8
 # makefile
@@ -217,7 +217,7 @@ MAKE_COMMAND := make
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-28332d22-1.66.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-28332d22-1.67.0-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -249,11 +249,11 @@ LC_ALL = C
 # environment
 DBUS_STARTER_BUS_TYPE = session
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/48675b1a_e217_4617_b8eb_9873b6276a9c
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/fd34f134_0e9b_4fe7_ae9b_27f77631142a
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.104
+GNOME_TERMINAL_SERVICE = :1.130
 # default
 SUFFIXES := 
 # environment
@@ -275,19 +275,27 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 3951
+VSCODE_PID = 9261
 # environment
-DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=144162def432f09bb7d32ce46272a042
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=c22bd22c92de106503e84d8362756b9f
  
 # variable set hash-table stats:
+ 
 # Load=133/1024=13%, Rehash=0, Collisions=26/166=16%
+ 
 
+ 
 # Pattern-specific Variable Values
+ 
 
+ 
 # No pattern-specific variable values.
+ 
 
 # Directories
+ 
 
+ 
 # . (device 2053, inode 1446496): 12 files, no impossibilities.
 
 # 12 files, no impossibilities in 1 directories.
@@ -409,6 +417,6 @@ src/LZespolona.cpp:
 # strcache performance: lookups = 43 / hit rate = 34%
 # hash-table stats:
 # Load=28/8192=0%, Rehash=0, Collisions=1/43=2%
-# Finished Make data base on Wed May  4 17:49:05 2022
+# Finished Make data base on Fri May  6 21:49:43 2022
 
  
